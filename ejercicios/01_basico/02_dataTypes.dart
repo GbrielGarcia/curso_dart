@@ -52,8 +52,29 @@ main() {
 
   // list
   // List<String> villanos = new List[]; => no utilizar de esta forma las list ya esta por ser eliminada
-  List<String> heroes = ['Goku', 'Naruto', 'Doraemon', 'Tu hermana'];
+  List<String> heroes = [
+    'Goku',
+    'Naruto',
+    'Doraemon',
+    'Tu hermana'
+  ]; // son base 0
   print(heroes);
   heroes[2] = 'Novita';
+  heroes.add('Bod sponja');
   print(heroes);
+  //
+  // La diferencia en los sets con las list es que los sets no permiten repeticiones de datos
+  //
+
+  // sets
+
+  Set<String> heroesSets = {
+    'Goku',
+    'Naruto',
+    'Doraemon',
+    'Tu hermana'
+  }; // son base 0
+  print(heroesSets);
+  heroesSets.add('Bod sponja');
+  print(heroesSets);
 }
