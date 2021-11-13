@@ -6,6 +6,7 @@ main() {
    * Decimales = double
    * Cadenas de texto  = string
    * Booleanos  = bool
+   * colecciones = list  []
    */
 
   // int
@@ -13,14 +14,17 @@ main() {
   int n2 = 4;
   int resultado = n1 + n2;
   print(resultado);
+
   // double
   double n4 = 2.5;
   double n5 = 7.5;
   double resultadoDoule = n4 + n5;
   print(resultadoDoule);
+
   // Null
   int? a;
   print(a);
+
   // String
   String nombre = 'Loki';
   String tipo = "rey de las mentiras";
@@ -37,4 +41,19 @@ main() {
   print(serie);
   print(serie1);
   print(multilineas);
+
+  // booleans
+  bool isActive = true;
+  // este simbolo en dar significa ! negacion y otras cosas mas, tener en cuenta donde lo pones.
+  bool notActive = !isActive;
+
+  print(isActive);
+  print(notActive);
+
+  // list
+  // List<String> villanos = new List[]; => no utilizar de esta forma las list ya esta por ser eliminada
+  List<String> heroes = ['Goku', 'Naruto', 'Doraemon', 'Tu hermana'];
+  print(heroes);
+  heroes[2] = 'Novita';
+  print(heroes);
 }
