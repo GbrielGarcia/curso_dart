@@ -7,6 +7,7 @@ main() {
    * Cadenas de texto  = string
    * Booleanos  = bool
    * colecciones = list  []
+   * mapas = maps {}
    */
 
   // int
@@ -77,4 +78,13 @@ main() {
   print(heroesSets);
   heroesSets.add('Bod sponja');
   print(heroesSets);
+
+  // map => llave  y valor (Diccionario / Objetos literales)
+
+  Map<String, String> dias = {
+    'Lunes': 'Frio',
+    'Martes': 'Soleado',
+  };
+
+  print(dias);
 }
