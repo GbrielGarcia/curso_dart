@@ -1,3 +1,3 @@
 main() {
-  print('Hola Mundo');
+  print('Bienvenido al curso de Dart');
 }
