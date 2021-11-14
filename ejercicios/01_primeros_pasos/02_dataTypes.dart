@@ -6,6 +6,7 @@ main() {
    * Decimales = double
    * Cadenas de texto  = string
    * Booleanos  = bool
+   * sets = {}
    * colecciones = list  []
    * mapas = maps {}
    */
@@ -89,7 +90,7 @@ main() {
   print(dias);
   // o un mapa de tipo int
   Map<int, dynamic> l = {1: 'BatCode', 2: 'Desarrollo', 3: true};
-  print(l);
+  print(l[4]);
 
   // otra forma de hacer mapas
 
