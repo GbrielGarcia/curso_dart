@@ -1,6 +1,9 @@
 main() {
 /**
  * Diferencias entre final y const.
+ * 
+ * final es mas ligera que const ya que no se carga en memoria
+ * 
  */
 
   final aFinal = ['pedro', 'raul']; // se puede cambiar los valores
@@ -13,4 +16,12 @@ main() {
   // diferentes formas de poner el final y const
   final List<String> aFinal1 = ['pedro', 'raul'];
   List<String> bConst1 = const ['pedro', 'raul'];
+
+  // late
+
+  late double x;
+  x = 3;
+  print(x);
+  x = 5;
+  print(x);
 }
