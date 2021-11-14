@@ -85,6 +85,16 @@ main() {
     'Lunes': 'Frio',
     'Martes': 'Soleado',
   };
-
+  print(dias['Lunes']);
   print(dias);
+  // o un mapa de tipo int
+  Map<int, dynamic> l = {1: 'BatCode', 2: 'Desarrollo', 3: true};
+  print(l);
+
+  // otra forma de hacer mapas
+
+  Map<String, dynamic> cap = new Map();
+
+  cap.addAll({'nombre': 'capitan', 'poder': 'fuerza'});
+  print(cap);
 }
