@@ -15,8 +15,9 @@ main() {
 
   // diferentes formas de poner el final y const
   final List<String> aFinal1 = ['pedro', 'raul'];
+  print(aFinal1);
   List<String> bConst1 = const ['pedro', 'raul'];
-
+  print(bConst1);
   // late
 
   late double x;

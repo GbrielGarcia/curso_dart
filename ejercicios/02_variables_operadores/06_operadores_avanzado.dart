@@ -20,7 +20,7 @@ main() {
    *  >= mayor que
    *  <= menor que
    *  == revisa  si son iguales
-   *  != revisa si son diferentes
+   *  ! = revisa si son diferentes
    * is revisa el tipo
    */
 
