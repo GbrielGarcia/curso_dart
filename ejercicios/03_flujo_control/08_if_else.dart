@@ -1,6 +1,13 @@
 import 'dart:io';
 
 main() {
+/**
+ * if(condicion){
+ * verdad
+ * }else{
+ * falso}
+ */
+
   stdout.writeln('Ingrese su edad');
   int? edad = int.parse(stdin.readLineSync() ?? '0');
 

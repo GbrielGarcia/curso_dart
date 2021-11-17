@@ -12,7 +12,7 @@ main() {
 
   if (edad >= 21) {
     stdout.writeln('Usted es ciudadano tiene $edad');
-  } else if (edad >= 18 && edad <= 20) {
+  } else if (edad >= 18) {
     stdout.writeln('Usted es mayor de edad tiene $edad');
   } else {
     stdout.writeln('Usted es menor de edad tiene $edad');
