@@ -1,7 +1,9 @@
 import 'dart:async';
 
 main() {
-  final streamController = StreamController();
+  // creacion una nueva instancia de StreamController
+  final streamController = new StreamController<String>.broadcast();
+  // broadcast: Para multiples supcriciones..
 
   streamController.stream.listen(
     (data) => print('Despegando! $data'),
@@ -24,6 +26,6 @@ main() {
   print('Fin');
 }
 
-// stream flujo de datos 
+// stream flujo de datos
 
-//  RECUERDEN EL CODIGO SECUENCIAL ES MAS RAPIDO QUE EL CODIGO ASINCRONO 
+//  RECUERDEN EL CODIGO SECUENCIAL ES MAS RAPIDO QUE EL CODIGO ASINCRONO
