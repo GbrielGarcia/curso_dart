@@ -3,13 +3,13 @@ class Person {
   String? name;
   String? lastName;
   int? age;
-  String? bio;
+  String? _bio;
   // Get y Set
   //  Constructores
   // Metodos
   @override
   String toString() =>
-      'Mi nombre es $name $lastName, tengo $age años y mi biografia es $bio';
+      'Mi nombre es $name $lastName, tengo $age años y mi biografia es $_bio';
 }
 
 /**
