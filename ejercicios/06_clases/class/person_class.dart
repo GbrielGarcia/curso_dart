@@ -16,3 +16,7 @@ class Person {
  * ? cuando se puede ser nulo
  * ! cuando no se puede ser nulo
  */
+
+
+//  get: Obtiene el valor
+// set: Asigna el valor
