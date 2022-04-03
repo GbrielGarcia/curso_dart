@@ -5,6 +5,13 @@ class Person {
   int? age;
   String? _bio;
   // Get y Set
+
+  String get bio => _bio ?? 's';
+  // set es void ( no se puede cambiar, void por defecto)
+  set bio(String text) {
+    _bio = text;
+  }
+
   //  Constructores
   // Metodos
   @override

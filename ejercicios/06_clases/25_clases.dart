@@ -6,7 +6,7 @@ main() {
   person
     ..name = 'Alberto'
     ..lastName = 'Gabriel'
-    ..age = 23;
-  // ..bio = 'Student';
+    ..age = 23
+    ..bio = 'Student';
   print(person);
 }
