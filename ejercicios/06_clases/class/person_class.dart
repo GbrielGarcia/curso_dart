@@ -23,6 +23,17 @@ class Person {
   // }
   // manera corta y basica
   Person(this.name, this.lastName, this.age, this._bio);
+
+  //Contructor con nombre
+  Person.persona20(this.name) {
+    this.age = 20;
+  }
+
+  Person.personaTotal(this.name, this.lastName) {
+    this.age = 40;
+    this._bio = 'Prueba';
+  }
+
   // Metodos
   @override
   String toString() =>
