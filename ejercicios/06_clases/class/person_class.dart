@@ -13,6 +13,16 @@ class Person {
   }
 
   //  Constructores
+  // manera larga y basica
+  // Person(String name, String lastName, int age, String bio) {
+  //   print('Constructor 1');
+  //   this.name = name;
+  //   this.age = age;
+  //   this.lastName = lastName;
+  //   this.bio = bio;
+  // }
+  // manera corta y basica
+  Person(this.name, this.lastName, this.age, this._bio);
   // Metodos
   @override
   String toString() =>
