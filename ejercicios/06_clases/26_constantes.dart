@@ -1,5 +1,3 @@
-// en los constructores constante apunta al mismo estado en memoria.
-
 import 'class/location_class.dart';
 
 main() {
@@ -13,6 +11,7 @@ main() {
     print('No son iguales');
   }
 
+// en los constructores constante apunta al mismo estado en memoria.
   const locationC = const Location(10, 10);
   const locationC1 = const Location(10, 12);
   const locationC2 = const Location(10, 12);
