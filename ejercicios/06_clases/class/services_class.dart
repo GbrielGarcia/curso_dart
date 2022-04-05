@@ -1,0 +1,11 @@
+import '../30_singlentosn.dart';
+
+main() {
+  final spoServe = MyServicios();
+  spoServe.url = 'https://jsonplaceholder.com';
+
+  final youServe = MyServicios();
+  youServe.url = 'https://jsonpla.COM';
+
+  print(spoServe == youServe);
+}
