@@ -1,11 +1,16 @@
-import '../30_singlentosn.dart';
+class MyServicios {
+  // creando instancia de la clase
+  static final _singlenton = new MyServicios._();
 
-main() {
-  final spoServe = MyServicios();
-  spoServe.url = 'https://jsonplaceholder.com';
+  // verificanos si ya existe una instancia con factory
 
-  final youServe = MyServicios();
-  youServe.url = 'https://jsonpla.COM';
+  factory MyServicios() {
+    return _singlenton;
+  }
 
-  print(spoServe == youServe);
+  // Creando contructor privado
+  MyServicios._();
+
+  String url = "https://jsonplaceholder.typicode.com/posts";
+  String key = 'key';
 }
